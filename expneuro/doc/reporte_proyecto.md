@@ -1,9 +1,9 @@
 # [Nombre del proyecto]
 
-Nombre: <!-- Nombre X (<email>)  -->  
-Nombre: <!-- Nombre X (<email>)  -->
+Nombre: Mario Alberto Limón Hernández mariolh@lcg.unam.mx
+Nombre: Silvana Cristo Yalu Martínez silanac@lcg.unam.mx
 
-Fecha:  dd/mm/aaaa
+Fecha:  10/09/2024
 
 
 ## Introducción
@@ -15,7 +15,9 @@ El gen MOXD1 ha sido previamente identificado como un potencial supresor tumoral
 
 ## Planteamiento del problema
 
-<!-- Describir la problemática que se presenta, la situación que motiva la realización del proyecto/análisis y que está causando posibles inconvenientes. -->
+La falta de información sobre los mecanismos moleculares que dependen del gen MOXD1 durante el desarrollo embrionario plantea una brecha importante en la comprensión de la biología de la cresta neural. MOXD1 ha sido vinculado a funciones importantes en el desarrollo de las glándulas suprarrenales y en la prevención del neuroblastoma, pero su rol exacto en los primeros eventos de desarrollo embrionario sigue siendo desconocido.
+
+Este proyecto busca investigar cómo la ausencia de MOXD1 afecta el desarrollo de la cresta neural y qué genes y rutas de señalización se ven alterados, con el fin de mejorar nuestra comprensión de su papel biológico y de las posibles implicaciones patológicas cuando está ausente.
 
 
 ## Metodología
