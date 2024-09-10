@@ -8,7 +8,9 @@ Fecha:  dd/mm/aaaa
 
 ## Introducción
 
-<!-- [Describir los antecedentes que ayuden a comprender el proyecto a desarrollar, o bien el análisis que se requiere llevar a cabo, incluyendo términos o definiciones, e imágenes relacionados a este. Esta sección, permite el usuario tener la noción del tema que se va a bordar en el resto del documento. -->
+Este proyecto tiene como objetivo analizar la función del gen *MOXD1* durante el desarrollo de la cresta neural en Gallus gallus. A través de un análisis de expresión génica diferencial entre embriones knockout de MOXD1 y controles, se busca identificar los genes y rutas de señalización involucrados en el desarrollo normal y cómo estos se ven afectados en ausencia de MOXD1.
+
+El gen MOXD1 ha sido previamente identificado como un potencial supresor tumoral en neuroblastoma, un cáncer infantil derivado de las células de la cresta neural. Por lo tanto, este estudio podría proporcionar nueva información sobre el desarrollo normal de la cresta neural y su relación con procesos patológicos como el cáncer.
 
 
 ## Planteamiento del problema
