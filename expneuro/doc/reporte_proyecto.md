@@ -1,6 +1,6 @@
 # [Expneuroblast]
-
-Nombre: Mario Alberto Limón Hernández mariolh@lcg.unam.mx
+:3
+nombre: Mario Alberto Limón Hernández mariolh@lcg.unam.mx
 Nombre: Silvana Yaú Cristo Martínez silavanac@lcg.unam.mx
 
 Fecha:  10/09/2024
