@@ -1,4 +1,3 @@
-# Análisis de expresión del gen MOX_1
 # Análisis de expresión diferencial del gen MOXD1 durante el desarrollo embrionario de Gallus gallus 
 
 Nombre: Mario Alberto Limón Hernández mariolh@lcg.unam.mx
