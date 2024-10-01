@@ -32,9 +32,11 @@ El knockout de MOXD1 en Gallus gallus ofrece una oportunidad única para investi
 
 Los datos fueron descargados de GEO en NCBI del siguiente link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE242700
 Los archivos se encuentran en la carpeta data:
+``` bash
 | -- data
 |   | -- GSE242700_2020_75_R2_gene_id.featureCounts.tsv
 |   | -- GSE242700_family.soft
+```
 
 <!-- [Identificar y describir los diferentes datos de entrada con los que se cuenta, así como de dónde fueron descargados, el formato de los mismos, y las columnas con las que cuenta. Especificar si se utilizará un servidor en particular para trabajar, o herramientas para el desarrollo de la solución del análsis. Formular las preguntas biológicas que se busca resolver con el análisis de los datos para determinar las tareas a realizar por cada una de ellas.]
 
@@ -66,46 +68,29 @@ Fecha de descarga: 17/09/2024
 #### Formato de los archivos
 
 - GSE242700_2020_75_R2_gene_id.featureCounts.tsv: Formato tsv
-Program:featureCounts v2.0.1; Command:"/opt/conda/envs/rnatools/bin/featureCounts" "-T" "20" "-t" "exon" "-a" "/projects/fs1/medpvb/genomicData/gallus/Gallus_gallus.GRCg6a.101.gtf" "-g" "gene_id" "-o" "/projects/fs1/medpvb/proj/bulkRNA/201013_MV/048_TruSeq/CTG_output/2020_75_R2/Quantification/../Quantification/2020_75_R2_gene_id.featureCounts.txt" "-p" "-s" "2" "CTRL_10" "CTRL_12" "CTRL_1" "CTRL_2" "CTRL_3" "CTRL_4" "CTRL_5" "CTRL_6" "CTRL_8" "MOX_10" "MOX_12" "MOX_13" "MOX_14" "MOX_1" "MOX_2" "MOX_3" "MOX_5" "MOX_6" "MOX_7" "MOX_8" "MOX_9" 
-El contenido del archivo viene en la siguiente tabla:
-| Columna    | Significado                                                                                 |
-|------------|---------------------------------------------------------------------------------------------|
-| Geneid     | Identificador único del gen en el análisis                                                   |
-| Chr        | Cromosoma en el que se encuentra el gen                                                      |
-| Start      | Posición inicial del gen en el cromosoma                                                     |
-| End        | Posición final del gen en el cromosoma                                                       |
-| Strand     | Cadena (sentido o antisentido) del ADN en la que se transcribe el gen                        |
-| Length     | Longitud total del gen (en pares de bases)                                                   |
-| CTRL_10    | Conteos de expresión para la condición control en la réplica 10                              |
-| CTRL_12    | Conteos de expresión para la condición control en la réplica 12                              |
-| CTRL_1     | Conteos de expresión para la condición control en la réplica 1                               |
-| CTRL_2     | Conteos de expresión para la condición control en la réplica 2                               |
-| CTRL_3     | Conteos de expresión para la condición control en la réplica 3                               |
-| CTRL_4     | Conteos de expresión para la condición control en la réplica 4                               |
-| CTRL_5     | Conteos de expresión para la condición control en la réplica 5                               |
-| CTRL_6     | Conteos de expresión para la condición control en la réplica 6                               |
-| CTRL_8     | Conteos de expresión para la condición control en la réplica 8                               |
-| MOX_10     | Conteos de expresión para la condición experimental (MOX) en la réplica 10                   |
-| MOX_12     | Conteos de expresión para la condición experimental (MOX) en la réplica 12                   |
-| MOX_13     | Conteos de expresión para la condición experimental (MOX) en la réplica 13                   |
-| MOX_14     | Conteos de expresión para la condición experimental (MOX) en la réplica 14                   |
-| MOX_1      | Conteos de expresión para la condición experimental (MOX) en la réplica 1                    |
-| MOX_2      | Conteos de expresión para la condición experimental (MOX) en la réplica 2                    |
-| MOX_3      | Conteos de expresión para la condición experimental (MOX) en la réplica 3                    |
-| MOX_5      | Conteos de expresión para la condición experimental (MOX) en la réplica 5                    |
-| MOX_6      | Conteos de expresión para la condición experimental (MOX) en la réplica 6                    |
-| MOX_7      | Conteos de expresión para la condición experimental (MOX) en la réplica 7                    |
-| MOX_8      | Conteos de expresión para la condición experimental (MOX) en la réplica 8                    |
-| MOX_9      | Conteos de expresión para la condición experimental (MOX) en la réplica 9                    |
+
+Program:featureCounts v2.0.1; Command:"/opt/conda/envs/rnatools/bin/featureCounts" "-T" "20" "-t" "exon" "-a" "/projects/fs1/medpvb/genomicData/gallus/Gallus_gallus.GRCg6a.101.gtf" "-g" "gene_id" "-o" "/projects/fs1/medpvb/proj/bulkRNA/201013_MV/048_TruSeq/CTG_output/2020_75_R2/Quantification/../Quantification/2020_75_R2_gene_id.featureCounts.txt" "-p" "-s" "2" "CTRL_10" "CTRL_12" "CTRL_1" "CTRL_2" "CTRL_3" "CTRL_4" "CTRL_5" "CTRL_6" "CTRL_8" "MOX_10" "MOX_12" "MOX_13" "MOX_14" "MOX_1" "MOX_2" "MOX_3" "MOX_5" "MOX_6" "MOX_7" "MOX_8" "MOX_9":
+
+| Columna | Significado |
+|---------|-------------|
+| Geneid  | Identificador único del gen en el análisis |
+| Chr     | Cromosoma en el que se encuentra el gen |
+| Start   | Posición inicial del gen en el cromosoma |
+| End     | Posición final del gen en el cromosoma |
+| Strand  | Cadena del ADN (sentido o antisentido) en la que se transcribe el gen |
+| Length  | Longitud total del gen (en pares de bases) |
+| CTRL_*  | Conteos de expresión para las condiciones control en las réplicas |
+| MOX_*   | Conteos de expresión para las condiciones experimentales en las réplicas |
+
 
 - GSE242700_family.soft: Formato SOFT:
 Contiene información sobre el experimento de expresión génica en el que se estudió el gen MOXD1 y su influencia en el desarrollo embrionario de células de la cresta neural del tronco en embriones de pollo, que contiene la siguiente información:
-+ Título: El gen de la cresta neural del tronco MOXD1 afecta el desarrollo embrionario.
-+ Accesión GEO: GSE24270
-+ Estado: Público desde el 13 de septiembre de 2023.
-+ Objetivo: Evaluar el impacto del gen MOXD1 en el desarrollo embrionario temprano, mediante su eliminación en células de la cresta neural del tronco usando el enfoque CRISPR/Cas9 en embriones de pollo
-+ Diseño experimental
-+ Plataforma utilizada: GPL26853
+  + Título: El gen de la cresta neural del tronco MOXD1 afecta el desarrollo embrionario.
+  + Accesión GEO: GSE24270
+  + Estado: Público desde el 13 de septiembre de 2023.
+  + Objetivo: Evaluar el impacto del gen MOXD1 en el desarrollo embrionario temprano, mediante su eliminación en células de la cresta neural del tronco usando el enfoque CRISPR/Cas9 en embriones de pollo
+  + Diseño experimental
+  + Plataforma utilizada: GPL26853
 
 ### Preguntas de investigación 
 
