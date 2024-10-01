@@ -1,7 +1,6 @@
 # Análisis de expresión diferencial del gen MOXD1 durante el desarrollo embrionario de Gallus gallus 
 
 Nombre: Mario Alberto Limón Hernández mariolh@lcg.unam.mx
-Nombre: Silvana Yalu Cristo Martinez silavanac@lcg.unam.mx
 Nombre: Silvana Yalú Cristo Martínez silvanac@lcg.unam.mx
 
 Fecha:  10/09/2024
@@ -11,19 +10,19 @@ Fecha:  10/09/2024
 
 El neuroblastoma es uno de los tipos de cáncer más comunes en la infancia, derivado de células de la cresta neural, una población celular que da origen a diversos tipos de tejidos durante el desarrollo embrionario temprano. Estas células son extremadamente plásticas y pueden diferenciarse en neuronas, células gliales, melanocitos y células de la médula adrenal, entre otras. La disregulación genética en esta población celular es un factor clave en la oncogénesis del neuroblastoma.
 
-Un gen que ha mostrado estar fuertemente relacionado con la progresión del neuroblastoma es MOXD1. Este gen, asociado al metabolismo de iones de cobre y al desarrollo de las glándulas suprarrenales, ha sido recientemente identificado como un posible supresor tumoral en neuroblastoma, sin embargo, su papel en el desarrollo embrionario en general y su implicación en el establecimiento de rutas de señalización cruciales, como las involucradas en la diferenciación neural y la homeostasis de metales, sigue siendo poco conocido.
+Un gen que ha mostrado estar fuertemente relacionado con la progresión del neuroblastoma es MOXD1, este gen, asociado al metabolismo de iones de cobre y al desarrollo de las glándulas suprarrenales, ha sido recientemente identificado como un posible supresor tumoral en neuroblastoma, sin embargo, su papel en el desarrollo embrionario en general y su implicación en el establecimiento de rutas de señalización cruciales, como las involucradas en la diferenciación neural y la homeostasis de metales, sigue siendo poco conocido.
 
 Recientes estudios, como el trabajo de Fredlund et al. (2023) publicado en Science Advances, han investigado el papel de MOXD1 utilizando múltiples organismos modelo, incluidos ratones y pollos (Gallus gallus). En su investigación, los autores demostraron que la disrupción de MOXD1 provoca un desarrollo embrionario anormal, lo cual refuerza su papel regulador en procesos cruciales como el desarrollo de la glándula adrenal y en la progresión de tumores neuroblásticos. Estos hallazgos sugieren que MOXD1 tiene una función crítica en mantener el equilibrio adecuado de la señalización celular durante la diferenciación.
 
-Este proyecto se centrará en investigar cómo la eliminación de MOXD1 mediante un enfoque de knockout en Gallus gallus afecta la expresión génica a nivel global, con un enfoque particular en las rutas relacionadas con el desarrollo, el metabolismo de iones de cobre y la progresión del cáncer. Para ello, se llevará a cabo un análisis de expresión diferencial utilizando datos de RNA-seq, lo que permitirá identificar genes que cambian su nivel de expresión en respuesta a la pérdida de MOXD1. Posteriormente, se realizarán análisis de enriquecimiento funcional para explorar qué rutas biológicas se ven más afectadas en este contexto.
+Este proyecto se centrará en investigar cómo la eliminación de MOXD1 mediante un enfoque de knockout en Gallus gallus afecta la expresión génica a nivel global, con un enfoque particular en las rutas relacionadas con el desarrollo, el metabolismo de iones de cobre y la progresión del cáncer. Para ello, se llevará a cabo un análisis de expresión diferencial utilizando datos de RNA-seq, lo que permitirá identificar genes que cambian su nivel de expresión en respuesta a la pérdida de MOXD1, posteriormente se realizarán análisis de enriquecimiento funcional para explorar qué rutas biológicas se ven más afectadas en este contexto.
 
 A través de este estudio, se espera avanzar en la comprensión del papel de MOXD1 en el desarrollo embrionario y su posible conexión con el neuroblastoma, con implicaciones para futuras investigaciones sobre la prevención y tratamiento de esta enfermedad.
 
 ## Planteamiento del problema
 
-El neuroblastoma es un cáncer infantil derivado de células de la cresta neural que sigue siendo una de las principales causas de muerte por cáncer en la infancia. A pesar de los avances en el tratamiento, los mecanismos moleculares que regulan la progresión de este cáncer y su relación con el desarrollo embrionario normal aún no se comprenden completamente. MOXD1 ha sido identificado como un gen supresor tumoral en el neuroblastoma, pero su papel exacto en el desarrollo embrionario, especialmente en procesos clave como el metabolismo de iones de cobre y la diferenciación de tejidos derivados de la cresta neural, sigue sin estar claro.
+A pesar de los avances en el tratamiento del neuroblastoma, los mecanismos moleculares que regulan la progresión de este cáncer y su relación con el desarrollo embrionario aún no se comprenden completamente. MOXD1 ha sido identificado como un gen supresor tumoral en el neuroblastoma, pero su papel exacto en el desarrollo embrionario, especialmente en procesos clave como el metabolismo de iones de cobre y la diferenciación de tejidos derivados de la cresta neural, sigue sin estar claro.
 
-El knockout de MOXD1 en Gallus gallus ofrece una oportunidad única para investigar cómo su eliminación afecta el desarrollo, así como su conexión con vías biológicas críticas. La falta de comprensión sobre estas vías específicas es un obstáculo para el desarrollo de terapias dirigidas más efectivas contra el neuroblastoma y otras enfermedades relacionadas. Este proyecto busca abordar esta brecha, explorando los efectos de la disrupción de MOXD1 en la expresión génica y las rutas biológicas durante el desarrollo embrionario.
+El knockout de MOXD1 en Gallus gallus ofrece una oportunidad única para investigar cómo su eliminación afecta el desarrollo, así como su conexión con vías biológicas críticas. La falta de comprensión sobre estas vías específicas es un obstáculo para el desarrollo de terapias dirigidas más efectivas contra el neuroblastoma y otras enfermedades relacionadas, por tal motivo este proyecto busca abordar esta brecha, explorando los efectos de la disrupción de MOXD1 en la expresión génica y las rutas biológicas durante el desarrollo embrionario.
  
 
 
@@ -111,28 +110,7 @@ Respuesta: Para responder a esta pregunta, realizaremos un análisis más detall
 ### Resultados
  
 
-<!-- ### X. Pregunta 
-
-Archivo(s):     
-
-Algoritmo: 
-
-1. 
-
-Solución: Describir paso a paso la solución, incluyendo los comandos correspondientes
-
-```bash
-
-```
-
-
-
-
-
-
-## Análisis y Conclusiones
-
- <!-- Describir todo lo que descubriste en este análisis -->
+## Análisis y Conclusiones 
 
 
 ## Referencias
