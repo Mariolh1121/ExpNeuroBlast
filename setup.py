@@ -10,7 +10,8 @@ setup(
         "numpy",
         "matplotlib",
         "seaborn",
-        "pydeseq2"
+        "pydeseq2",
+        "logging"
     ],
     entry_points={
         "console_scripts": [
