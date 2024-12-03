@@ -105,8 +105,8 @@ def volcano_plot(expression_data: str, output_file: str, pval_treshold: int = 0.
     ]
     plt.legend(handles=legend_elements, title="ED genes", loc="upper right")
     plt.show()
-    plt.savefig("../../resuslts/volcano_plot.png")
+    plt.savefig("../../results/volcano_plot.png")
     logger.info(f'The plot image was saved in ../../results/volcano_plot.png')
     logger.info(f'The differentially expressed genes with the parameters were saved in {output_file}')
-    results.to_csv(output_file, index = True)
+    over_expressed.to_csv(output_file, index = True)
     return output_file
