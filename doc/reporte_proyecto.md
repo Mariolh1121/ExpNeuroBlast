@@ -2,13 +2,13 @@
 # Análisis de expresión diferencial del gen MOXD1 durante el desarrollo embrionario de Gallus gallus 
 
 Nombre: Mario Alberto Limón Hernández mariolh@lcg.unam.mx
-Nombre: Silvana Yalú Cristo Martínez silavanac@lcg.unam.mx
+Nombre: Silvana Yalu Cristo Martinez silavanac@lcg.unam.mx
 
 Fecha:  10/09/2024
 
 ## Introducción
 
-El neuroblastoma es uno de los tipos de cáncer más comunes en la infancia, derivado de células de la cresta neural, una población celular que da origen a diversos tipos de tejidos durante el desarrollo embrionario temprano. Estas células son extremadamente plásticas y pueden diferenciarse en neuronas, células gliales, melanocitos y células de la médula adrenal, entre otras. La desregulación genética en esta población celular es un factor clave en la oncogénesis del neuroblastoma.
+El neuroblastoma es uno de los tipos de cáncer más comunes en la infancia, derivado de células de la cresta neural, una población celular que da origen a diversos tipos de tejidos durante el desarrollo embrionario temprano. Estas células son extremadamente plásticas y pueden diferenciarse en neuronas, células gliales, melanocitos y células de la médula adrenal, entre otras. La disregulación genética en esta población celular es un factor clave en la oncogénesis del neuroblastoma.
 
 Un gen que ha mostrado estar fuertemente relacionado con la progresión del neuroblastoma es MOXD1. Este gen, asociado al metabolismo de iones de cobre y al desarrollo de las glándulas suprarrenales, ha sido recientemente identificado como un posible supresor tumoral en neuroblastoma, sin embargo, su papel en el desarrollo embrionario en general y su implicación en el establecimiento de rutas de señalización cruciales, como las involucradas en la diferenciación neural y la homeostasis de metales, sigue siendo poco conocido.
 
@@ -159,7 +159,7 @@ volcano_plot('../../results/expression_analysis.csv',
              log2fc_treshold = 1)
 ```
 
-3. ¿A qué están relacionados estos genes diferencialmente expresados?
+3. ¿A qué estan relacionados estos genes diferncialmente expresados?
 
 Algoritmo:
 1. Visualizar el df de los genes expresados
@@ -173,11 +173,11 @@ de_genes = pd.read_csv('../../results/de_genes.csv', index_col = 0)
 # Exploramos el contenido del df
 de_genes
 ```
-Por lo que podemos ver no existieron genes sobre expresados, sino subexpresados diferencialmente, por lo que ahora veremos de quienes se tratan.
+Por lo que podmeos ver no existieron genes sobre expresados, sino subexpresados diferencialmente, por lo que ahora veremos de quienes se tratan.
 ```python
 de_genes.symbol
 ```
-+ C1S -> 	Calcium ion binding/serine-type endopeptidase activity
++ C1S -> 	calcium ion binding/serine-type endopeptidase activity
 + DDO -> D-Aspartate Oxidase
 + GC -> Funcioón extra celular desconcodia
 + ENSGALG00000002957 -> Solute carrier family 12 member 3 (Thiazide-sensitive sodium-chloride cotransporter) (Na-Cl symporter)
@@ -192,4 +192,4 @@ MOXD1 está implicado en la regulación de procesos oxidativos y puede influir e
 
 1. Fredlund E., Andersson S., Ferreira M., Mohlin S. MOXD1 is a lineage-specific gene and a tumor suppressor in neuroblastoma. Science Advances. 21 de Junio del 2024. DOI: 10.1126/sciadv.ado1583
 
-2. GEO Accession GSE242700: Trunk neural crest gene MOXD1 affects embryonic development. Disponible en: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE242700 
+2. GEO Accession GSE242700: Trunk neural crest gene MOXD1 affects embryonic development. Disponible en: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE242700
